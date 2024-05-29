@@ -5,6 +5,7 @@
     <title>IntroPhp7 Grupo XA</title>
     <link rel="stylesheet" href="css/menu.css"/>
     <link rel="stylesheet" href="css/stem.css"/>
+    <link rel="stylesheet" href="css/problemas.css"/>
     <link href="https://fonts.googleapis.com/css?family=Rambla" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
 </head>
