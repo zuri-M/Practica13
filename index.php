@@ -69,11 +69,17 @@ function velocidad_escape (){
 </footer>
 </section>
 
-<script>
-function calcularVelocidad() {
-    var velocidad = <?php echo velocidad_escape(); ?>;
-    document.getElementById("resultadoA").innerHTML = velocidad + ' km/s';
-}
-</script>
+<section class="resultado"
+<h2>El resultado es:</h2>
+<div id="resultadoA"></div>
+<?php
+ print "<h1> resultado: densidad = ".velocidad_escape (). " km/s</h1>";
+?>
+</section>
+
+    <footer class="pie">
+     Creative Commons versión 3.0 SciSoft 2024
+    </footer>
+   </section>
 </body>
 </html>
