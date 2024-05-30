@@ -48,7 +48,6 @@
         <h2>Solución</h2>
         <p>El escape de la tierra es:<br>  
             sqrt(2*6.67 x 10^11 Nm^2/Kg^2*5.98 x10^27 Kg/6.37 x 10^8 cm) <br></p>
-        <button onclick="velocidad_escape ();">Presiona para calcular</button>
       </section>
 <?php
 function velocidad_escape (){
@@ -59,11 +58,15 @@ function velocidad_escape (){
     return $velocidad;
 }
 ?>
-    <section class="resultado">
-    function calcularVelocidad() {
+ <section class="resultado">
+        <h2>Resultado:</h2>
+        <div id="resultadoA">
+        </div>
+    </section>
+<script>
+function calcularVelocidad() {
     var velocidad = <?php echo velocidad_escape(); ?>;
     document.getElementById("resultadoA").innerHTML = velocidad + ' km/s';
-    </section>
 }
 </script>
 </body>
