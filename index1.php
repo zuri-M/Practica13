@@ -29,6 +29,12 @@
            r es la distancia radial entre G y M <br>
         </p>
       </section>
+        <section  class="esquemaProblema">
+        <h2>Esquema</h2>
+        <center>
+        <img class="imgProblema" src="images/imagen1.jpeg">
+        </center>
+      </section>
 <section class="formulas">
         <h2>Fórmulas</h2>
         Escape de la tierra: v=sqrt(2G M/r)<br>
