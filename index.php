@@ -49,6 +49,7 @@
         <p>El escape de la tierra es:<br>  
             sqrt(2*6.67 x 10^11 Nm^2/Kg^2*5.98 x10^27 Kg/6.37 x 10^8 cm) <br></p>
       </section>
+        <script>
 <?php
 function velocidad_escape (){
     $G = 6.67 * pow(10, -11);
@@ -58,6 +59,7 @@ function velocidad_escape (){
     return $velocidad;
 }
 ?>
+        </script>
  <section class="resultado">
         <h2>Resultado:</h2>
         <div id="resultadoA">
