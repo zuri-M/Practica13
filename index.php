@@ -52,23 +52,22 @@
         <button onclick="velocidad_escape ();">Presiona para calcular</button>
       </section>
 <?php
-     function velocidad_escape (){
-      var G=6.67*Math.pow(10,-11);
-      var M=5.98*Math.pow(10,24);
-      var r=6.37*Math.pow(10,6);
-      var velocidad= Math.sqrt(2*G*M/r);
-      var d=document.getElementById("resultadoA");
-      d.innerHTML=velocidad+' km/s';
-      }
+function velocidad_escape (){
+    $G = 6.67 * pow(10, -11);
+    $M = 5.98 * pow(10, 24);
+    $r = 6.37 * pow(10, 6);
+    $velocidad = sqrt(2 * $G * $M / $r);
+    return $velocidad;
+}
 ?>
-<section class="resultado">
-        <h2>Resultado:</h2>
-        <div id="resultadoA"></div>
-      </section>
+
+<script>
+    <section class="resultado">
+    function calcularVelocidad() {
+    var velocidad = <?php echo velocidad_escape(); ?>;
+    document.getElementById("resultadoA").innerHTML = velocidad + ' km/s';
     </section>
-    <footer class="pie">
-     Creative Commons versión 4.0 SciSoft 2024
-    </footer>
-    </section>
+}
+</script>
 </body>
 </html>
