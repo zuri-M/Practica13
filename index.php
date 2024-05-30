@@ -58,13 +58,12 @@ function velocidad_escape (){
     return $velocidad;
 }
 ?>
- </section>
-    <section class="resultado">
+<section class="resultado">
         <h2>Resultado:</h2>
         <div id="resultadoA">
         </div>
     </section>
-</section>
+<section>
 <footer class="pie">
  Creative Commons versión 4.0 SciSoft 2024
 </footer>
