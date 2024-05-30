@@ -73,7 +73,7 @@ function velocidad_escape (){
 <h2>El resultado es:</h2>
 <div id="resultadoA"></div>
 <?php
- print "<h1> resultado: densidad = ".velocidad_escape (). " km/s</h1>";
+ print "<h1> Resultado: ".velocidad_escape (). " km/s</h1>";
 ?>
 </section>
 
